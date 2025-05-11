@@ -1,4 +1,6 @@
-# 🤖 LLM Model Comparison Chat
+# 🤖 LLM Model Comparison Chat           ( -> [中文版](./README-cn.md) )
+
+
 
 A one-stop platform for visually comparing the answers and response speed of mainstream Large Language Models (LLMs)!
 
