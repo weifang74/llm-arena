@@ -1,70 +1,19 @@
-# 🤖 LLM Model Comparison Chat
+# 🤖 多模型对比聊天应用（LLM Model Comparison Chat）
 
-A one-stop platform for visually comparing the answers and response speed of mainstream Large Language Models (LLMs)!
+一站式对比主流大语言模型（LLM）回答效果！
 
-This project is designed for developers, AI enthusiasts, and product managers who want to evaluate, debug, and select LLMs efficiently. You can ask multiple models (such as Llama3, Qwen, DeepSeek Chat, etc.) the same question in parallel and instantly compare their answers and response times.
-
----
-
-## 🚀 Key Features
-
-- **Parallel Multi-Model Comparison:** Configure and activate multiple LLMs, send questions to all at once, and see results side by side.
-- **Response Time Display:** Each model's answer includes its response time for easy performance evaluation.
-- **Conversation History:** Multi-turn conversation support, preserving each question and all model responses.
-- **Flexible Model Management:** Add, edit, delete, or import model configurations via the UI (supports JSON batch import).
-- **Modern & User-Friendly UI:** Built with React + Ant Design, featuring a clean three-column layout and dark mode support.
-- **Security-Oriented:** Sensitive info such as API keys is managed via `.env` and never committed.
+本项目旨在为开发者、AI爱好者和产品经理提供一个可视化、易用的多模型对比平台。你可以一次性向多个大模型（如 Llama3、Qwen、DeepSeek Chat 等）提问，实时对比它们的回答内容和响应速度，助力模型评测、Prompt 调优和产品选型。
 
 ---
 
-## 🖼️ Screenshot
+## 🚀 主要功能
 
-![Screenshot](./screenshot.png)
-
----
-
-## 🛠️ Getting Started
-
-1. **Install dependencies**
-   ```bash
-   npm install
-   cd server && npm install
-   ```
-2. **Configure Models**
-   - Edit `server/data/modelConfig.json` to add your model API info (see `modelConfig-sample.json` for reference).
-   - Add sensitive info to `.env`.
-3. **Start Frontend & Backend**
-   ```bash
-   # Start backend
-   cd server && npm start
-   # Start frontend
-   npm start
-   ```
-4. **Open in Browser**
-   Visit [http://localhost:3000](http://localhost:3000)
-
----
-
-## 🌟 Use Cases
-- LLM benchmarking and performance comparison
-- Prompt engineering and rapid debugging
-- AI product evaluation and selection
-- Classroom demos and LLM education
-
----
-
-## 📦 Repository & Deployment
-- Ready for GitHub, with sensitive and dependency files excluded via `.gitignore`
-- Recommended: deploy frontend on Vercel, backend on Railway/Render/your server
-
----
-
-## 🤝 Contributing
-Pull requests, issues, and new model integration suggestions are welcome!
-
----
-
-> For learning and research only. Not for commercial use.
+- **多模型并行对比**：支持同时配置和启用多个主流大模型，自动并行提问，结果一目了然。
+- **响应速度展示**：每个模型的回复都带有响应时间，方便评估模型性能。
+- **对话历史管理**：支持多轮对话，完整保存每轮提问和各模型回复。
+- **模型灵活配置**：可通过界面增删改查模型信息，支持导入 JSON 批量配置。
+- **美观易用的前端界面**：基于 React + Ant Design，三栏布局，支持暗色模式。
+- **安全性设计**：敏感信息如 API Key 通过 .env 管理，避免泄露。
 
 ---
 

@@ -239,7 +239,7 @@ function App() {
     <Layout style={{ height: '100vh' }}>
       <Sider width={250} theme="light" style={{ overflow: 'auto', borderRight: '1px solid #f0f0f0' }}>
         <div style={{ padding: '16px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <Title level={4} style={{ margin: 0 }}>NextChat</Title>
+          <Title level={4} style={{ margin: 0 }}>LLM PK Arena</Title>
           <Button 
             type="text" 
             icon={<SettingOutlined />} 
