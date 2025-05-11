@@ -1,0 +1,32 @@
+[
+  {
+    "id": "deepseek-chat",
+    "name": "DeepSeek Chat",
+    "api_key": "sk-xxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "base_url": "https://api.deepseek.com",
+    "api_type": "openai",
+    "model": "deepseek-chat",
+    "active": true,
+    "color": "#1890ff"
+  },
+  {
+    "id": "llama3-8b",
+    "name": "Llama3-8B",
+    "api_key": "xxxxxxxxxxxxxxxxxxxxxx",
+    "base_url": "https://api.cloudflare.com/client/v4/accounts/8e26f346c7f464b9b62389568cfbcbf0/ai/v1",
+    "api_type": "openai",
+    "model": "@cf/meta/llama-3-8b-instruct",
+    "active": true,
+    "color": "#52c41a"
+  },
+  {
+    "id": "qwq-32b",
+    "name": "qwen",
+    "model": "@cf/qwen/qwq-32b",
+    "api_key": "xxxxxxxxxxxxxxxxxxxxxx",
+    "base_url": "https://api.cloudflare.com/client/v4/accounts/8e26f346c7f464b9b62389568cfbcbf0/ai/v1",
+    "api_type": "openai",
+    "active": true,
+    "color": "#722ed1"
+  }
+]
